@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.siswa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.siswa-info {
+    width: 30%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.tombol-pindah-halaman {
+    display: block;
+    background-color: #333; /* Warna tombol */
+    color: #fff; /* Warna teks tombol */
+    border: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1266px) {
+    .siswa-info {
+        width: 48%;
+    }
+}
+  /* Media query untuk tampilan kecil (smartphone) */
+  
+@media screen and (max-width: 480) {
+    .siswa-info {
+        width: 100%;
+    }
+}

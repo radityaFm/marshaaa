@@ -1,0 +1,24 @@
+.vidio-container{
+    width: 25px;
+    height: 10px;
+    position: relative;
+    padding-bottom: 10%;
+    padding-top: 20%;
+
+}
+
+.vidio-container iframe
+.vidio-container object
+.vidio-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
